@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1036367480383",
+    "project_id": "table-eae22",
+    "storage_bucket": "table-eae22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036367480383:android:e304d08a02f26eff1f5a8a",
+        "android_client_info": {
+          "package_name": "com.kevkhv.table"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwttmzGXD1iL3jhkegq8IboP2dsLqSaTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
