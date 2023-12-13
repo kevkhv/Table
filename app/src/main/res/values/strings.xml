@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Table</string>
+    <string name="default_web_client_id" translatable="false">1036367480383-bjubhvcunq3ccfjnkc6n4hbr94sfbl20.apps.googleusercontent.com</string>
     <!--Menu Drawer Strings-->
     <string name="ad_cat1">Обьявления</string>
     <string name="ad_my_ads">Мои обьявления</string>
@@ -22,8 +23,12 @@
     <string name="forget_password">Забыли пароль?</string>
     <string name="sign_up_error">Не удалось зарегистрироваться!</string>
     <string name="sign_in_error">Не удалось войти!</string>
+    <string name="not_found_user_error">Пользователь с таким Email не найден,зарегестрируйтесь!</string>
     <string name="email_reset_password_was_sent">Пароль выслан на ваш email!</string>
     <string name="dialog_reset_email_message">Для восстановления пароля укажите ваш email адрес!</string>
     <string name="send_verification_email_error">Не удалось отправить email для подтверждения!</string>
     <string name="send_verification_email_done">На вашу почту была отправлена ссылка для подтверждения email,пожалуйста подтвердите ваш аккаунт!</string>
+    <!-- Sign dialog-->
+    <string name="link_done">Email успешно подключен к Google аккаунту</string>
+    <string name="enter_to_g">Пользователь с таким Email уже зарегестрирован!Войдите по Google аккаунту!</string>
 </resources>

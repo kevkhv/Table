@@ -22,15 +22,16 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
         android:ems="10"
         android:hint="@string/email_hint"
         android:inputType="textPersonName|textEmailAddress"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvDialogMessage" />
-
 
 
     <EditText
@@ -38,25 +39,39 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edSignEmail" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btGoogleSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:buttonSize="standard"
+        app:layout_constraintEnd_toEndOf="@+id/btSignUpIn"
+        app:layout_constraintStart_toStartOf="@+id/btSignUpIn"
+        app:layout_constraintTop_toBottomOf="@+id/edSignPassword" />
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btSignUpIn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/common_google_signin_btn_tint"
         android:text="@string/sign_up_action"
+        android:textColor="@color/common_google_signin_btn_text_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edSignEmail"
         app:layout_constraintStart_toStartOf="@+id/edSignEmail"
-        app:layout_constraintTop_toBottomOf="@+id/edSignPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/btGoogleSignIn" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btForgetP"

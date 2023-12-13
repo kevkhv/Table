@@ -14,14 +14,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "1036367480383-e64gq7hen730g8acqren4g1aemld33vo.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.kevkhv.table",
-            "certificate_hash": "69181b16d3006cbfa533c4e6d7e530ac38189807"
-          }
-        },
-        {
           "client_id": "1036367480383-bjubhvcunq3ccfjnkc6n4hbr94sfbl20.apps.googleusercontent.com",
           "client_type": 3
         }
